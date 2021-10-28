@@ -34,7 +34,7 @@ footer, header, hgroup, menu, nav, section {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey; 
+    /*border:1px solid grey; */
 }
 
 *General Styles*/
@@ -46,7 +46,7 @@ body{
     line-height:1.5;
     color:#4f4f4f;
     background-color:#FBFFFB;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
 }
 a{
     font-family: monospace;
@@ -55,52 +55,68 @@ a{
 h1{
     color:#FBFFFB;
     font-size:5rem;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
 }
 h2{
     font-size:3rem;
+    text-align: center;
 }
 h3{
-    font-size:2.2rem;
+    font-size:1rem;
+    text-align: justify;
 }
 h2, h3{
     color:#266035;
-    text-align:center;
-    font-family: 'Oxygen', sans-serif;
-    margin-bottom:5%;
+    font-family: 'Zen Kurenaido', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 a{
     text-decoration: none;
     color:#266035;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
 }
 button{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
     font-size:1.8rem;
-    padding:2% 4%;
+    /* padding:2% 4%;*/
     margin-top:4%;
+    text-align: center;
+}
+
+button header{
+    display: flex;
+    margin: 0%;
+
 }
 section, footer{
-    padding:4% 0;
+    padding:2% 0;
 }
 
-img{
-    border-radius: 80%;
+.gallery img{
+     /*align-items: stretch; */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-section{
-
+footer{
+    background-color: lightgrey;
+    text-align: center;
 }
 
-.pictures{
+nav{
+    text-align: center;
+    margin-top: 5%;
+}
+.gallery{
     display: flex;
     flex-wrap: row wrap;
     justify-content: space-around;
 }
+.promo{
+        background-image: url('../style/oct.jpg');
+        background-repeat: no-repeat;
+}
 
 
-/* Add navigation bar with About, Projects, and Contact that link to the corresponding pages
- Gallery of projects created with flexbox - you may use random images in place of project screenshots for now with the random image link: https://picsum.photos/ or you may use images that mean something to you
- Information about you in place of the given placeholder
- A My Projects button that links to the projects page
- A Contact Me button that links to the contact page
+ /*
  Links to any social media profiles (Instagram, linkedIn, Twitter) into the footer section of your home page CSS styling here */
