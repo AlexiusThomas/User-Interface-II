@@ -76,45 +76,44 @@ a{
     color:#266035;
     font-family: 'Zen Kurenaido', sans-serif;
 }
-button{
-    font-family: 'Zen Kurenaido', sans-serif;
-    font-size:1.8rem;
-    /* padding:2% 4%;*/
-    margin-top:4%;
-    text-align: center;
-}
-
-button header{
+.links{
     display: flex;
-    margin: 0%;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: small;
+    /* padding:2% 4%;*/
+   justify-content: center;
 
 }
-section, footer{
-    padding:2% 0;
-}
+
 
 .gallery img{
-     /*align-items: stretch; */
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: flex;
+    
 }
+
+
 footer{
     background-color: lightgrey;
-    text-align: center;
+    align-items: center;
 }
 
 nav{
-    text-align: center;
-    margin-top: 5%;
+    display: inline;
 }
-.gallery{
+
+title{
     display: flex;
-    flex-wrap: row wrap;
-    justify-content: space-around;
 }
+
+.main img {
+    width: 100%;
+    height: auto;
+  }
+/*
 .promo{
-        background-image: url('../style/oct.jpg');
+        background-image: url('https://unsplash.com/photos/hvX-e40NHvw');
         background-repeat: no-repeat;
+        background-size: cover; 
 }
 
 
