@@ -1,1 +1,106 @@
-/* Add CSS styling here */
+/*CSS Reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border:1px solid grey; 
+}
+
+*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.8rem;
+    line-height:1.5;
+    color:#4f4f4f;
+    background-color:#FBFFFB;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a{
+    font-family: monospace;
+    text-decoration:non;
+}
+h1{
+    color:#FBFFFB;
+    font-size:5rem;
+    font-family: 'Oxygen', sans-serif;
+}
+h2{
+    font-size:3rem;
+}
+h3{
+    font-size:2.2rem;
+}
+h2, h3{
+    color:#266035;
+    text-align:center;
+    font-family: 'Oxygen', sans-serif;
+    margin-bottom:5%;
+}
+a{
+    text-decoration: none;
+    color:#266035;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+button{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:1.8rem;
+    padding:2% 4%;
+    margin-top:4%;
+}
+section, footer{
+    padding:4% 0;
+}
+
+img{
+    border-radius: 80%;
+}
+section{
+
+}
+
+.pictures{
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-around;
+}
+
+
+/* Add navigation bar with About, Projects, and Contact that link to the corresponding pages
+ Gallery of projects created with flexbox - you may use random images in place of project screenshots for now with the random image link: https://picsum.photos/ or you may use images that mean something to you
+ Information about you in place of the given placeholder
+ A My Projects button that links to the projects page
+ A Contact Me button that links to the contact page
+ Links to any social media profiles (Instagram, linkedIn, Twitter) into the footer section of your home page CSS styling here */
