@@ -175,16 +175,11 @@ title{
 }
 
 
+/* wasnt sure if we were suppose to add this
 
-
-
-/*
-.promo{
-        background-image: url('https://unsplash.com/photos/hvX-e40NHvw');
-        background-repeat: no-repeat;
-        background-size: cover; 
-}
-
-
- /*
- Links to any social media profiles (Instagram, linkedIn, Twitter) into the footer section of your home page CSS styling here */
+<a target="_blank" href="https://www.instagram.com/alexiusvictoria/">
+ <img class=“sm_icon“src="instagram.png">
+</a>
+<a target="_blank" href="https://www.facebook.com/alexiusthomas/">
+ <img class=“sm_icon“src="facebook.png">
+</a>
