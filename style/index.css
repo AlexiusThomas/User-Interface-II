@@ -34,7 +34,7 @@ footer, header, hgroup, menu, nav, section {
     padding:0;
     margin:0;
     max-width:100%;
-    /*border:1px solid grey; */
+    
 }
 
 *General Styles*/
@@ -54,16 +54,17 @@ a{
 }
 h1{
     color:#FBFFFB;
-    font-size:5rem;
+    font-size:6rem;
     font-family: 'Zen Kurenaido', sans-serif;
 }
 h2{
-    font-size:3rem;
+    font-size:2rem;
     text-align: center;
 }
 h3{
     font-size:1rem;
     text-align: justify;
+    margin-bottom: 5px;
 }
 h2, h3{
     color:#266035;
@@ -86,29 +87,97 @@ a{
 }
 
 
-.gallery img{
-    display: flex;
-    
-}
 
+
+.main {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-flow: row-wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
 
 footer{
     background-color: lightgrey;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
+
 nav{
-    display: inline;
-}
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  nav a{
+
+    font-size: 2px;
+  }
 
 title{
     display: flex;
 }
 
-.main img {
+.image {
+    justify-content: center;
+    display: flex;
+}
+        
+.image img {
     width: 100%;
-    height: auto;
+    justify-content: center;
+    height: 40vh;
+}
+  
+
+   footer div {
+      display: flex;
+      align-content: center;
+    margin-bottom: 2%;
   }
+  .gallery {
+    display: flex;
+    
+}
+.pics{
+    display: flex;
+}
+
+.gallery img{
+    height: 80vh;
+}
+
+ 
+
+
+.text2 {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+.text {
+    padding:30% 25%;
+    display: flex;
+    font-size: small;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+
+
 /*
 .promo{
         background-image: url('https://unsplash.com/photos/hvX-e40NHvw');
