@@ -173,3 +173,122 @@ title{
     justify-content: center;
     margin: auto;
 }
+
+
+
+
+@media (max-width:800px){
+    .logo{
+     width:8%;
+ }
+    #about div{
+        width:50%;
+        margin-right:3%;
+        margin-top: 20%;
+    }
+    .text div{
+        width:80%;
+        
+}
+ .bottom p{
+     margin-right: 9.5%;
+ }
+    }
+/* mobile view*/
+
+
+@media (max-width:500px){
+    
+    }
+    nav div{
+        display: flex;
+        flex-direction:column;
+        text-align: center;
+        justify-content:  center;
+    }
+    nav{
+        flex-wrap:wrap;
+        justify-content:  center;
+        padding-bottom:1%;
+        justify-content:  center;
+    }
+    h1{
+        font-size: 4rem;
+        width:100%;
+    }
+    .links{
+        display: flex;
+        justify-content:  center;
+
+    }
+    .main-container{
+        margin-top: 0;
+    }
+    .gallery{
+        display:flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .pics{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .photo2,  .photo3, .photo4, .photo5{
+        display: flex;
+        width:40%;
+        margin: 5%;
+      }
+      
+      
+    footer div{
+        display: flex;
+        flex-direction:column;
+        text-align: center;
+    }
+    footer{
+        flex-wrap:wrap;
+        justify-content:  center;
+        padding-bottom:1%
+    }
+    button{
+        width: 25%;
+        padding:2%;
+        justify-content:  center;
+    }
+    footer button{
+        width: 100%;
+        padding:10%;
+        justify-content:  center;
+    }
+    top{
+        margin-bottom: 2%;
+    }
+    .image{
+        padding:6%;
+    }
+    .text{
+        font-size: 2rem;
+
+    }
+    
+}
+
+/* git push -u origin alexius-thomas-day2
+compare thursday branch to todays for 
+pull  request */
+
+/* Responsive code
+
+
+    #about{
+        background-image:none;
+        background-color: lightgrey;
+        height: auto;
+        justify-content: center;
+        align-content: center;
+    }
+
+
+ */
