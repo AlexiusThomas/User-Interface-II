@@ -175,26 +175,21 @@ title{
 }
 
 
-
+  /* tablet view*/
 
 @media (max-width:800px){
-    .logo{
-     width:8%;
- }
-    #about div{
-        width:50%;
-        margin-right:3%;
-        margin-top: 20%;
+    .text2 {
+        display:flex;
+        justify-content: center;
+        align-content: center;
     }
-    .text div{
-        width:80%;
-        
-}
- .bottom p{
-     margin-right: 9.5%;
- }
     }
-/* mobile view*/
+
+  
+
+
+
+    /* mobile view*/
 
 
 @media (max-width:500px){
@@ -278,17 +273,4 @@ title{
 /* git push -u origin alexius-thomas-day2
 compare thursday branch to todays for 
 pull  request */
-
-/* Responsive code
-
-
-    #about{
-        background-image:none;
-        background-color: lightgrey;
-        height: auto;
-        justify-content: center;
-        align-content: center;
-    }
-
-
- */
+ 
